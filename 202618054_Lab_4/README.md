@@ -2,6 +2,10 @@
 
 An end-to-end Machine Learning project that predicts the nightly price of Airbnb listings using listing, location, room type, review, and availability information.
 
+## Live Demo
+
+🔗 [Open Airbnb Price Prediction](https://new-york-airbnb-price-predication-model.streamlit.app/)
+
 ## 📌 Project Overview
 
 This project follows a complete Machine Learning workflow:
@@ -30,10 +34,6 @@ The final model is integrated into a Streamlit application where users can enter
 ## 📊 Dataset
 
 The project uses the **New York City Airbnb Open Data (2019)** dataset from Kaggle.
-
-## Streamlit App Live Demo
-
-🔗 [Open Airbnb Price Prediction App](https://new-york-airbnb-price-predication-model.streamlit.app/)
 
 ## 🔍 Exploratory Data Analysis
 
