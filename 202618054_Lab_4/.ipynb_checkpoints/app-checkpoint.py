@@ -1,9 +1,12 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
-model = joblib.load("airbnb_price_model.pkl")
-location_lookup = pd.read_csv("location_lookup.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model = joblib.load(os.path.join(BASE_DIR, "airbnb_price_model.pkl"))
+location_lookup = pd.read_csv(os.path.join(BASE_DIR, "location_lookup.csv"))
 
 st.set_page_config(
     page_title="Airbnb Price Prediction",
