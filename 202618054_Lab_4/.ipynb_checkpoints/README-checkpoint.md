@@ -31,10 +31,6 @@ The final model is integrated into a Streamlit application where users can enter
 
 The project uses the **New York City Airbnb Open Data (2019)** dataset from Kaggle.
 
-## Streamlit App Live Demo
-
-🔗 [Open Airbnb Price Prediction App](https://new-york-airbnb-price-predication-model.streamlit.app/)
-
 ## 🔍 Exploratory Data Analysis
 
 EDA was performed to understand the dataset and identify important patterns.
@@ -107,7 +103,6 @@ max_depth = 30
 min_samples_split = 5
 min_samples_leaf = 1
 max_features = sqrt
-```
 
 ## ⚠️ Important Limitations
 
