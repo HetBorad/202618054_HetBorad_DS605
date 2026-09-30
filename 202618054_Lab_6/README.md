@@ -44,8 +44,8 @@
   - Precision = **95.78%**
   - Recall = **98.33%**
   - F1 Score = **97.04%**
-- The baseline model took approximately **4.26 seconds** for training and **0.041 seconds** for prediction.
+- The baseline model took approximately **11.08 seconds** for training and **0.115 seconds** for prediction.
 - The number of features was reduced from **3,000 to 1,500** by selecting the most frequent features.
-- The reduced-feature model decreased training time from **4.26 seconds to 2.64 seconds** and prediction time from **0.041 seconds to 0.028 seconds**.
+- The reduced-feature model decreased training time from **11.08 seconds to 3.56 seconds** and prediction time from **0.115 seconds to 0.053 seconds**.
 - However, accuracy decreased slightly from **98.26% to 97.87%**, and F1 score decreased from **97.04% to 96.37%**.
 - Therefore, reducing the number of features reduced computation time but caused a small decrease in classification performance.
