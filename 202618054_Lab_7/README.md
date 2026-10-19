@@ -34,7 +34,7 @@
 
 10. **Overall finding:** PCA substantially reduces dimensionality and storage requirements while preserving useful information for face recognition. The best method depends on the balance between compression and recognition accuracy.
 
-11. 11. **Principal-direction comparison:** The first 10 principal directions obtained using covariance eigendecomposition and SVD had an absolute direction similarity of 1.0 for every component. This confirms that both methods produced aligned principal directions. The comparison results are saved in `outputs/tables/direction_comparison.csv`.
+11. **Principal-direction comparison:** The first 10 principal directions obtained using covariance eigendecomposition and SVD had an absolute direction similarity of 1.0 for every component. This confirms that both methods produced aligned principal directions. The comparison results are saved in `outputs/tables/direction_comparison.csv`.
 
 ### PCA Component Comparison
 
