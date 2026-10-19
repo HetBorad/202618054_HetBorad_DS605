@@ -1,0 +1,5 @@
+Components,Features Retained (%),Feature Reduction (%),Nearest Neighbor Accuracy (%),SVM Accuracy (%)
+20,70.49,99.81,95.0,95.0
+50,82.48,99.51,96.25,97.5
+98,90.06,99.05,95.0,97.5
+150,94.31,98.54,95.0,97.5

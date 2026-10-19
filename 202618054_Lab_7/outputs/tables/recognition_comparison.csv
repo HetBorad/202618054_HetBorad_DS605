@@ -1,0 +1,5 @@
+Method,Accuracy (%)
+Raw-pixel Nearest Neighbor,100.0
+PCA Nearest Neighbor,95.0
+KNN on PCA Features,95.0
+Linear SVM on PCA Features,97.5
